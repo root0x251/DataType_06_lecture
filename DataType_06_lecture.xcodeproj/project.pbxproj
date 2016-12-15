@@ -15,6 +15,7 @@
 		F941B73A1E02D11700DF0430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F941B7381E02D11700DF0430 /* LaunchScreen.storyboard */; };
 		F941B7451E02D11700DF0430 /* DataType_06_lectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F941B7441E02D11700DF0430 /* DataType_06_lectureTests.m */; };
 		F941B7501E02D11700DF0430 /* DataType_06_lectureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F941B74F1E02D11700DF0430 /* DataType_06_lectureUITests.m */; };
+		F941B75F1E02D72F00DF0430 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F941B75E1E02D72F00DF0430 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F941B74B1E02D11700DF0430 /* DataType_06_lectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataType_06_lectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F941B74F1E02D11700DF0430 /* DataType_06_lectureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataType_06_lectureUITests.m; sourceTree = "<group>"; };
 		F941B7511E02D11700DF0430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F941B75D1E02D72F00DF0430 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		F941B75E1E02D72F00DF0430 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				F941B72D1E02D11700DF0430 /* AppDelegate.h */,
 				F941B72E1E02D11700DF0430 /* AppDelegate.m */,
+				F941B75D1E02D72F00DF0430 /* Student.h */,
+				F941B75E1E02D72F00DF0430 /* Student.m */,
 				F941B7301E02D11700DF0430 /* ViewController.h */,
 				F941B7311E02D11700DF0430 /* ViewController.m */,
 				F941B7331E02D11700DF0430 /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				F941B7321E02D11700DF0430 /* ViewController.m in Sources */,
 				F941B72F1E02D11700DF0430 /* AppDelegate.m in Sources */,
 				F941B72C1E02D11700DF0430 /* main.m in Sources */,
+				F941B75F1E02D72F00DF0430 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
