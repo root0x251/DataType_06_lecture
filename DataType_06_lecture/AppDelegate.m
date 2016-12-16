@@ -20,20 +20,21 @@
     // Override point for customization after application launch.
     
     id empty = @"=======================";
+    // хранится в стеке
     NSLog(@"%@ПРИМИТИВНЫЕ ТИПЫ%@", empty, empty);
 
     BOOL boolVarYesNo = YES;// 1bit (1 or 0)
     BOOL boolVarTrueFalse = false;
     
     NSInteger intVar = 10;
-    NSUInteger uIntVar = 100000000; // безразмерный
+    NSUInteger uIntVar = 100000000; // беззнаковый
     
     CGFloat floatVar  = 1.5f;
     double doubleVar = 23.2f;
     
     
-    NSLog(@"boolVarYesNo = %hhd", boolVarYesNo);
-    NSLog(@"boolVarTrueFalse = %hhd", boolVarTrueFalse);
+    NSLog(@"boolVarYesNo = %d", boolVarYesNo);
+    NSLog(@"boolVarTrueFalse = %d", boolVarTrueFalse);
     NSLog(@"intVar = %d", intVar);
     NSLog(@"uIntVar = %d", uIntVar);
     NSLog(@"floatVar = %.2f", floatVar);
@@ -125,8 +126,8 @@
     
     NSArray *primitiveArray = @[boolVarYesNoArray, boolVarTrueFalseArray, intVarArray, uIntVarArray, uIntVarArray, floatVarArray, doubleVarArray];
     
-    NSLog(@"boolVarYesNo = %hhd", [[primitiveArray objectAtIndex:0] boolValue]);
-    NSLog(@"boolVarTrueFalse = %hhd", [[primitiveArray objectAtIndex:1] boolValue]);
+    NSLog(@"boolVarYesNo = %d", [[primitiveArray objectAtIndex:0] boolValue]);
+    NSLog(@"boolVarTrueFalse = %d", [[primitiveArray objectAtIndex:1] boolValue]);
     NSLog(@"intVar = %d", [[primitiveArray objectAtIndex:2] integerValue]);
     NSLog(@"uIntVar = %d",[[primitiveArray objectAtIndex:3] unsignedIntegerValue]);
     NSLog(@"floatVar = %.2f", [[primitiveArray objectAtIndex:4] floatValue]);
